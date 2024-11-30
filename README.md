@@ -1,2 +1,5 @@
 # Projeto_POO_Java
-Em breve...
+
+Em questão de dias, aqui irá surgir um novo projeto
+
+Aguarde...
