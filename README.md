@@ -1,10 +1,10 @@
-# Projeto POO | Jogo de Estratégia - Batalha de Exércitos
+# Projeto POO 📚 Jogo de Estratégia - Batalha de Exércitos
 
 Este projeto é um jogo de estratégia que simula batalhas entre dois exércitos, permitindo ao jogador configurar a composição de tropas e acompanhar a batalha em turnos. Desenvolvido em **Java**, o jogo aplica os principais conceitos de Programação Orientada a Objetos (POO), como herança, encapsulamento, polimorfismo, classes abstratas, composição, etc.
 
 ---
 
-## Diagrama de Classes
+## 🧩 Diagrama de Classes
 
 **Estrutura Central:**
 
@@ -19,13 +19,24 @@ Este projeto é um jogo de estratégia que simula batalhas entre dois exércitos
 
 ## 🎮 Contexto do Jogo
 
-O jogo consiste em uma batalha estratégica entre dois exércitos, cada um formado por diferentes tipos de personagens:
+O jogo consiste em uma batalha estratégica entre dois exércitos, cada um formado por diferentes tipos de personagens, podendo atribuir itens especiais a cada exército, mostrar estatísticas de cada exército e de cada personagem criado. Após a batalha ser iniciada, é possível ver os turnos e qual vai ser o confronto de cada personagem durante toda a batalha. 
 
-- **Guerreiros**: Alta força e defesa, focados em combate corpo a corpo.
-- **Arqueiros**: Ataques à distância, mais ágeis, mas com menor defesa.
-- **Magos**: Poderosos ataques mágicos, mas baixa resistência.
+# Personagens do Jogo
 
-Cada exército também possui itens como armas (que aumentam o dano) e poções (que restauram vida).
+Cada personagem do jogo possui atributos e habilidades únicas que definem seu estilo de combate. Abaixo, uma tabela com as especificações técnicas de todos os personagens disponíveis no jogo:
+
+| **Personagem**  | **Vida** | **Ataque** | **Defesa** | **Habilidade Especial**
+|------------------|----------|------------|------------|-----------------------
+| **Guerreiro**    | 100      | 20         | 15         | Possui mais vida e defesa.
+| **Arqueiro**     | 80       | 15         | 10         | Não possui, é um intermediário entre o Guerreiro e o Mago.
+| **Mago**         | 70       | 25         | 8          | Possui mais força (Ataque).
+
+
+Cada exército também possui itens como armas (que aumentam o dano) e poções (que restauram vida). 
+
+- O exército 1 (Aliança) tem direito a uma arma (Espada Lendária) e uma poção (Poção de Cura).
+
+- O exército 2 (Horda) tem direito a uma arma (Machado de Guerra) e uma poção (Poção de Energia).
 
 ### Regras do Jogo
 
